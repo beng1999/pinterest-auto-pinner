@@ -1,0 +1,27 @@
+11/19/2019 05:54:22 PM - Login - INFO: Element found with locator: //a[contains(text(), 'Already a member? Log in')] and  locatorType: xpath
+11/19/2019 05:54:23 PM - Login - INFO: Clicked on element with locator: //a[contains(text(), 'Already a member? Log in')] locatorType: xpath
+11/19/2019 05:54:25 PM - Login - INFO: Element found with locator: email and  locatorType: id
+11/19/2019 05:54:25 PM - Login - INFO: Sent data on element with locator: email locatorType: id
+11/19/2019 05:54:27 PM - Login - INFO: Element found with locator: password and  locatorType: id
+11/19/2019 05:54:27 PM - Login - INFO: Sent data on element with locator: password locatorType: id
+11/19/2019 05:54:29 PM - Login - INFO: Element found with locator: //div[contains(text(), 'Log in')]//parent::button and  locatorType: xpath
+11/19/2019 05:54:30 PM - Login - INFO: Clicked on element with locator: //div[contains(text(), 'Log in')]//parent::button locatorType: xpath
+11/19/2019 05:54:37 PM - SeleniumDriver - INFO: Element found with locator: //input[@data-test-id='search-box-input'] and  locatorType: xpath
+11/19/2019 05:54:41 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='__PWS_ROOT__']/div[1]/div[3]/div/div/div/div[2]/div[1]/div/div/div/div[1]/div[1]/div/div/div/div/div/div/div[1]/a and  locatorType: xpath
+11/19/2019 05:54:41 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='__PWS_ROOT__']/div[1]/div[3]/div/div/div/div[2]/div[1]/div/div/div/div[1]/div[1]/div/div/div/div/div/div/div[1]/a locatorType: xpath
+11/19/2019 05:54:44 PM - SeleniumDriver - INFO: Element present with locator: //div[@data-test-id='SaveButton'] locatorType: xpath
+11/19/2019 05:54:44 PM - SeleniumDriver - INFO: Element found with locator: //div[@data-test-id='SaveButton'] and  locatorType: xpath
+11/19/2019 05:54:44 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@data-test-id='SaveButton'] locatorType: xpath
+11/19/2019 05:54:45 PM - SeleniumDriver - INFO: Element present with locator: //div[@data-test-id='already-pinned'] locatorType: xpath
+11/19/2019 05:54:46 PM - SeleniumDriver - INFO: Element found with locator: //button[@aria-label='Close'] and  locatorType: xpath
+11/19/2019 05:54:46 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[@aria-label='Close'] locatorType: xpath
+11/19/2019 05:54:46 PM - SeleniumDriver - INFO: Element found with locator: //input[@data-test-id='search-box-input'] and  locatorType: xpath
+11/19/2019 05:54:50 PM - SeleniumDriver - INFO: Element found with locator: //*[@id='__PWS_ROOT__']/div[1]/div[3]/div/div/div/div[2]/div[1]/div/div/div/div[1]/div[2]/div/div/div/div/div/div/div[1]/a and  locatorType: xpath
+11/19/2019 05:54:50 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id='__PWS_ROOT__']/div[1]/div[3]/div/div/div/div[2]/div[1]/div/div/div/div[1]/div[2]/div/div/div/div/div/div/div[1]/a locatorType: xpath
+11/19/2019 05:54:58 PM - SeleniumDriver - INFO: Element not found
+11/19/2019 05:55:04 PM - SeleniumDriver - INFO: Element not found with locator: //div[@data-test-id='SaveButton'] and  locatorType: xpath
+11/19/2019 05:55:04 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@data-test-id='SaveButton'] locatorType: xpath
+11/19/2019 05:55:11 PM - SeleniumDriver - INFO: Element not found
+11/19/2019 05:55:17 PM - SeleniumDriver - INFO: Element not found with locator: //div[@data-test-id='board-selection'] and  locatorType: xpath
+11/19/2019 05:55:17 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@data-test-id='board-selection'] locatorType: xpath
+11/19/2019 05:55:25 PM - SeleniumDriver - INFO: Element not found with locator: //input[@data-test-id='search-box-input'] and  locatorType: xpath
