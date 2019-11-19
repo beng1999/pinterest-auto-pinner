@@ -24,7 +24,7 @@ class AutoPinner(BasePage):
         element.send_keys(Keys.ENTER)
 
     def clickImages(self):
-        for i in range(1, 6):
+        for i in range(1, 7):
             _images = "//*[@id='__PWS_ROOT__']/div[1]/div[3]/div/div/div/div[2]/div[1]/div/div/div/div[1]/div[" + str(i) + "]/div/div/div/div/div/div/div[1]/a"
             self.elementClick(_images, locatorType="xpath")
             time.sleep(2)
