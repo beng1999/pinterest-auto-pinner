@@ -13,7 +13,8 @@ class AutoPinner(BasePage):
     #Locators
     _search_bar = "//input[@data-test-id='search-box-input']"
     _save_button = "//div[@data-test-id='SaveButton']"
-    _board_selection = "//div[@data-test-id='board-selection'][1]"
+    _board_selection = "//div[@title='Bees']"
+    _board_dropdown_menu = "//div[@data-test-id='boardSelectionDropdown']"
     _already_posted_img = "//div[@data-test-id='already-pinned']"
     _close_image_button = "//button[@aria-label='Close']"
     counter = 0
@@ -24,6 +25,7 @@ class AutoPinner(BasePage):
         element.send_keys(Keys.ENTER)
 
     def clickImages(self):
+        counter = 0
         for i in range(1, 7):
             _images = "//*[@id='__PWS_ROOT__']/div[1]/div[3]/div/div/div/div[2]/div[1]/div/div/div/div[1]/div[" + str(i) + "]/div/div/div/div/div/div/div[1]/a"
             self.elementClick(_images, locatorType="xpath")
@@ -31,20 +33,14 @@ class AutoPinner(BasePage):
             self.clickSaveButton()
             time.sleep(1)
 
-            alreadyHaveImage = self.elementPresenceCheck(self._already_posted_img, byType="xpath")
+             #alreadyHaveImage = self.elementPresenceCheck(self._already_posted_img, byType="xpath")
 
-            if alreadyHaveImage is not True:
-                self.boardSelection()
-                time.sleep(2)
-                self.inputSearch()
-            else:
-                self.elementClick(self._close_image_button, locatorType="xpath")
-                self.inputSearch()
-
+            self.boardSelection()
+            time.sleep(1)
+            self.inputSearch()
 
     def clickSaveButton(self):
-        isSaveThere = self.elementPresenceCheck(self._save_button, byType="xpath")
-        self.elementClick(self._save_button, locatorType="xpath")
+        self.elementClick(self._board_dropdown_menu, locatorType="xpath")
 
     def boardSelection(self):
         self.elementClick(self._board_selection, locatorType="xpath")
